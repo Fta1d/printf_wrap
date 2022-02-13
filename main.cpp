@@ -32,7 +32,7 @@ void myout(char *str) {
         } else
             buff[count++] = str[i++];
 
-        buff[count + 1] = '\0';
+        buff[count] = '\0';
     }
 
     delete[] buff;
