@@ -29,11 +29,8 @@ void myout(char *str) {
             if (flag)
                 break;
 
-        } else {
-            buff[count] = str[i];
-            ++count;
-            ++i;
-        }
+        } else
+            buff[count++] = str[i++];
 
         buff[count + 1] = '\0';
     }
